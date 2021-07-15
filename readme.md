@@ -31,3 +31,13 @@ int gcd(int m, int n){
 ```
 
 Trick: equals to `rotate(nums.rbegin(), nums.rbegin() + k % nums.size(), nums.rend());`
+
+## 20210715
+
+### #283 move-zeroes
+
+Fast-slow bipointers. When the loop ends, those behind slow pointers are all zeroes.
+
+### #167 two-sum-ii-input-array-is-sorted
+
+Small-big bipointers. Or using binary-search in #35.
