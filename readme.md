@@ -41,3 +41,24 @@ Fast-slow bipointers. When the loop ends, those behind slow pointers are all zer
 ### #167 two-sum-ii-input-array-is-sorted
 
 Small-big bipointers. Or using binary-search in #35.
+
+## 20210716
+
+### #344 reverse-string
+
+Just reverse.
+
+### #557 reverse-words-in-a-string-iii
+
+A pointer to detect space.
+
+### Offer 53 count-in-a-sorted-array
+
+Binary search for the first no smaller than the target and the first bigger than it.
+
+```
+e < nums[mi] return lo - 1 // the last no bigger
+e <=nums[mi] return hi     // the first no smaller
+```
+
+### #1694 reformat-phone-number
