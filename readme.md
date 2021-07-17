@@ -62,3 +62,30 @@ e <=nums[mi] return hi     // the first no smaller
 ```
 
 ### #1694 reformat-phone-number
+
+## 20210717
+
+### #876 middle-of-the-linked-list
+
+Fast-slow bipointers. Fast goes next of next.
+
+### #19 remove-nth-node-from-end-of-list
+
+Fast-slow bipointers. Fast ahead by n pointers. Remind of deleting the head.\
+Recursion Ver.
+
+```
+class Solution {
+public:
+    int cur = 0;
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+       if(!head) return nullptr;
+       head->next = removeNthFromEnd(head->next, n);
+       cur++;
+       if(n == cur) return head->next;
+       return head;
+    }
+};
+```
+
+PS: Dummyhead can be useful.
