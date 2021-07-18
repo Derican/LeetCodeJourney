@@ -89,3 +89,14 @@ public:
 ```
 
 PS: Dummyhead can be useful.
+
+## 20210718
+
+### #3 longest-substring-without-repeating-characters
+
+Slide-window. Take a vector or map to restore the last position where the `end` character appears. Remember to check the window size when the loop ends.
+
+### #567 permutation-in-string
+
+Slide-window.\
+PS: Update the number of the matched characters.
