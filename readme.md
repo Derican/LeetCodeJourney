@@ -100,3 +100,14 @@ Slide-window. Take a vector or map to restore the last position where the `end` 
 
 Slide-window.\
 PS: Update the number of the matched characters.
+
+## 20210719
+
+### #733 flood-fill
+
+BFS.\
+PS: Remenber to change the color when it is pushed in queue.
+
+### #695 max-area-of-island
+
+Check every position to conduct a BFS.
