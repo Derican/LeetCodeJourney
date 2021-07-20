@@ -111,3 +111,17 @@ PS: Remenber to change the color when it is pushed in queue.
 ### #695 max-area-of-island
 
 Check every position to conduct a BFS.
+
+## 20210720
+
+### #617 merge-two-binary-trees
+
+Recursive merge.
+
+### #116 populating-next-right-pointers-in-each-node
+
+When coming to the next layer, the next pointers of the last layer are ready. Use those pointers to traverse the last layer.
+
+### #1877 minimize-maximum-pair-sum-in-array
+
+Sorted array is the solution.
