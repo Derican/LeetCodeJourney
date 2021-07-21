@@ -125,3 +125,13 @@ When coming to the next layer, the next pointers of the last layer are ready. Us
 ### #1877 minimize-maximum-pair-sum-in-array
 
 Sorted array is the solution.
+
+## 20210721
+
+### #542 01-matrix
+
+Set all the zero into the queue.
+
+### #994 rotting-oranges
+
+Same.
