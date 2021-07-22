@@ -135,3 +135,14 @@ Set all the zero into the queue.
 ### #994 rotting-oranges
 
 Same.
+
+## 20210722
+
+### #21 merge-two-sorted-lists
+
+Recursion.
+
+### #206 reverse-linked-list
+
+Loop: pre, cur, nxt tri-pointers.\
+Recursion: write an independent function `reverse(pre, cur)`.
