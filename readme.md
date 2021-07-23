@@ -146,3 +146,17 @@ Recursion.
 
 Loop: pre, cur, nxt tri-pointers.\
 Recursion: write an independent function `reverse(pre, cur)`.
+
+## 20210723
+
+### #77 combinations
+
+Same.
+
+### #46 permutations
+
+Same.
+
+### #784 letter-case-permutation
+
+PS: Use 2-digit encoding to traverse.
