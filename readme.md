@@ -160,3 +160,18 @@ Same.
 ### #784 letter-case-permutation
 
 PS: Use 2-digit encoding to traverse.
+
+## 20210724
+
+### #70 climing-stairs
+
+Fibnacci.
+
+### #198 house-robber
+
+`dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])`
+
+### #120 triangle
+
+`dp[i] = min(dp[i], dp[i - 1]) + triangle[layer][i]`
+PS: Bottom-up will be simple.
