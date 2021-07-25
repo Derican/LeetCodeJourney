@@ -175,3 +175,14 @@ Fibnacci.
 
 `dp[i] = min(dp[i], dp[i - 1]) + triangle[layer][i]`
 PS: Bottom-up will be simple.
+
+## 20210725
+
+### #231 power-of-two
+
+Best solution:
+`return n > 0 && (n & (n - 1)) == 0;`
+
+### #191 number-of-1-bits
+
+Same.
