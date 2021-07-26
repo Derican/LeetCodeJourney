@@ -186,3 +186,14 @@ Best solution:
 ### #191 number-of-1-bits
 
 Same.
+
+## 20210726
+
+### #190 reverse-bits
+
+Trick in java's methods `Integer.reverse` and `Interger.bitCount`. Using the way that count every 2/4/8/16/32 bits.
+
+### #136 single-number
+
+Xor.
+PS: `accumulate(vec.begin(), vec.end(), bit_op)`.
